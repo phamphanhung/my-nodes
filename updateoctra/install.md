@@ -1,0 +1,27 @@
+🔄 Update dự án Octra Task 2
+A e update code sau nha.
+```bash
+cd octra_pre_client
+git stash
+git pull origin main
+pip install -r requirements.txt
+```
+
+❇️ chạy code này xong rồi chạy lại lệnh vào như trước, lệnh ở trên là lệnh update lên phiên bản mới nhé.
+
+✅ Lệnh chạy lại 
+```bash
+./run.sh
+```
+lệnh chạy lại khi cần
+```bash
+cd /workspaces/wallet-gen/octra_pre_client
+python3 -m venv venv
+source venv/bin/activate
+python3 cli.py
+```
+ví tương tác chéo 
+```
+octFE67jbsBe9yFSa9Fui6o6wdd4MLjAouC8a5rcSRtatyr
+```
+
