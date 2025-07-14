@@ -31,4 +31,4 @@ octFE67jbsBe9yFSa9Fui6o6wdd4MLjAouC8a5rcSRtatyr
 -- https://faucet.octra.network/
 -- https://t.me/hoangkindyairdrop/891
 ### lỡ tắt mấy tab github phải làm sao để vào lại  ?
--- làm theo vidoe sau -- https://youtube.com/shorts/XKXA6MrCni4?feature=share
+-- làm theo video sau -- https://youtube.com/shorts/XKXA6MrCni4?feature=share
