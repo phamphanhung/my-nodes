@@ -30,5 +30,6 @@ octFE67jbsBe9yFSa9Fui6o6wdd4MLjAouC8a5rcSRtatyr
 -- https://t.me/hoangkindyairdrop/859
 -- https://faucet.octra.network/
 -- https://t.me/hoangkindyairdrop/891
+-- https://discord.com/channels/1375364150687039498/1375365428091818077
 ### lỡ tắt mấy tab github phải làm sao để vào lại  ?
 -- làm theo video sau -- https://youtube.com/shorts/XKXA6MrCni4?feature=share
