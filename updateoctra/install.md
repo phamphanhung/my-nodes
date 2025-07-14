@@ -25,3 +25,8 @@ ví tương tác chéo
 octFE67jbsBe9yFSa9Fui6o6wdd4MLjAouC8a5rcSRtatyr
 ```
 
+### link tham khảo
+--https://www.youtube.com/watch?v=g8nQx2ayzX8
+-- https://t.me/hoangkindyairdrop/859
+-- https://faucet.octra.network/
+-- https://t.me/hoangkindyairdrop/891
