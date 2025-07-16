@@ -51,7 +51,6 @@ chmod +x modal-login
 ```
 🔑 Bước này sẽ mở trình duyệt tại http://localhost:3000 để bạn login và lấy API KEY, sau đó sẽ tự sinh ra file userData.json.
 ### **BƯỚC NÀY NÓ LÊN Y?n THÌ BẤM N VÀ ENTER** 
-
 ✅ BƯỚC 6: Chạy RL-Swarm
 bash
 Sao chép
@@ -59,13 +58,10 @@ Chỉnh sửa
 ```bash
 ./run_rl_swarm.sh
 ```
-
 ✅ Nếu mọi thứ đúng, bạn sẽ thấy log giống như:
 API key is activated! Proceeding... và tiến trình bắt đầu huấn luyện (training).
-
 📌 GHI NHỚ:
 Mỗi lần mở lại máy, bạn cần chạy:
-
 bash
 Sao chép
 Chỉnh sửa
@@ -74,4 +70,16 @@ cd ~/rl-swarm
 source .venv/bin/activate
 ./run_rl_swarm.sh
 ```
+### **cập nhật khi bị lỗi dòng chữ đỏ**
+Ok so 
+Run your cmd as an administrator 
+Then 
+paste this
+w32tm /resync
+net start w32time
+w32tm /resync
+Open cmd prompt with open as an administrator 
+Paste this 
+wsl --shutdown
 ### web check : https://dashboard.gensyn.ai/
+### https://discord.gg/gensyn
