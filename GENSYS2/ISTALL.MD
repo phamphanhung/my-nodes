@@ -73,13 +73,29 @@ source .venv/bin/activate
 ### **cập nhật khi bị lỗi dòng chữ đỏ**
 Ok so 
 Run your cmd as an administrator 
-Then 
-paste this
+```bash
 w32tm /resync
 net start w32time
 w32tm /resync
+```
 Open cmd prompt with open as an administrator 
 Paste this 
+```bash
 wsl --shutdown
+```
+### cập nhật lần 3
+cách 3 khi máy bị đứng 
+
+pip install reasoning-gym
+
+cd ~/rl-swarm
+
+docker-compose run --rm --build -Pit swarm-gpu
+
+python3 -m venv .venv
+source .venv/bin/activate
+./run_rl_swarm.sh
+chạy 3 lệnh đầu mà bị lỗi down nữa
+thì chạy tiếp lệnh cuối
 ### web check : https://dashboard.gensyn.ai/
 ### https://discord.gg/gensyn
