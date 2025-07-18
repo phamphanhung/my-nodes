@@ -99,3 +99,36 @@ chạy 3 lệnh đầu mà bị lỗi down nữa
 thì chạy tiếp lệnh cuối
 ### web check : https://dashboard.gensyn.ai/
 ### https://discord.gg/gensyn
+###cập nhật lần 4 
+nâng cấp Cuda 12.8
+
+sudo apt-get --purge remove
+
+sudo apt-get autoremove
+
+
+wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-wsl-ubuntu.pin
+sudo mv cuda-wsl-ubuntu.pin /etc/apt/preferences.d/cuda-repository-pin-600
+
+sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/3bf863cc.pub
+
+sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/ /"
+
+sudo apt update
+sudo apt install -y cuda-toolkit-12-8
+
+
+export PATH=/usr/local/cuda-12.8/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-12.8/lib64:$LD_LIBRARY_PATH
+
+source ~/.bashrc
+
+
+nvcc --version
+
+Kết quả: Cuda compilation tools, release 12.8, V12.8.89
+xong chạy lại cái lệnh như bình thường
+khi nó hỏi đến Hub Face (FC) thì N enter
+xong dán model này vào
+Gensyn/Qwen2.5-1.5B-Instruct
+enter cho chạy xem bị văng k
