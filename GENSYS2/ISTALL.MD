@@ -129,6 +129,51 @@ nvcc --version
 Kết quả: Cuda compilation tools, release 12.8, V12.8.89
 xong chạy lại cái lệnh như bình thường
 khi nó hỏi đến Hub Face (FC) thì N enter
+
+
+
+genssyn4
+
+
+1. cd ~/rl-swarm
+
+2. từng lệnh
+
+git fetch --tags
+
+
+git checkout tags/v0.5.8 -b v0.5.8
+
+
+git clone --branch v0.5.8 https://github.com/gensyn-ai/rl-swarm.git
+cd rl-swarm
+pip install -r requirements.txt
+
+
+3, check xem lên v0.58 chưa 
+
+cd ~/rl-swarm
+ git describe --tags
+
+
+4. 1 lệnh
+
+cd ~/rl-swarm
+docker-compose run --rm --build -Pit swarm-gpu
+
+
+nếu lỗi ctrl + C và gõ 1 lệnh
+
+python3 -m venv .venv
+source .venv/bin/activate
+./run_rl_swarm.sh
+
+lỗi tiếp gõ 1 lệnh tiếp theo
+
+
+cd ~/rl-swarm
+source .venv/bin/activate
+./run_rl_swarm.sh
 xong dán model này vào
 Gensyn/Qwen2.5-1.5B-Instruct
 enter cho chạy xem bị văng k
