@@ -18,6 +18,7 @@ nexus-network start
 
 curl https://cli.nexus.xyz/ | sh
 source /Users/admin/.zshrc
-nexus-network register-user --wallet-address 0xD67C8522794C2ce32a043771f08CB9bd5b29151e
+nexus-network register-user --wallet-address 0xc16dC1E4c107a1B1D4AD7F87ED8fc5b1BA84F832
 nexus-network register-node
 nexus-network start
+
