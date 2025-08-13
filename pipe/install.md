@@ -24,9 +24,10 @@ Bước 3️⃣: Chạy Node
 sudo ./pop --signup-by-referral-route f2998c66d9a5feeb
 
 Chạy node:
-
+sudo ./pop --ram 6 --max-disk 200 --cache-dir /data --pubKey "DiNfJgGrpvhUY7rv7XUbuAkGXptYuvN88HuJX9LhuSLi"
 Chạy nhanh: 
 sudo ./pop "Solana addrest"
+curl -L -o pop "https://dl.pipecdn.app/v0.2.8/pop" chmod +x pop mkdir download_cache
 
 chạy với setup:
 sudo ./pop --ram 6 --max-disk 200 --cache-dir /data --pubKey "Solana addrest"
