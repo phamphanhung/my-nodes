@@ -177,3 +177,7 @@ source .venv/bin/activate
 xong dán model này vào
 Gensyn/Qwen2.5-1.5B-Instruct
 enter cho chạy xem bị văng k
+chạy 6.0 mở thư
+davidhung@DESKTOP-A39CHVD:~$ cd /mnt/c/Users/phamh/Downloads/rl-swarm-0.6.0
+davidhung@DESKTOP-A39CHVD:/mnt/c/Users/phamh/Downloads/rl-swarm-0.6.0$ chmod +x run_rl_swarm.sh
+davidhung@DESKTOP-A39CHVD:/mnt/c/Users/phamh/Downloads/rl-swarm-0.6.0$ ./run_rl_swarm.sh
