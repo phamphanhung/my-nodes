@@ -181,3 +181,14 @@ chạy 6.0 mở thư
 davidhung@DESKTOP-A39CHVD:~$ cd /mnt/c/Users/phamh/Downloads/rl-swarm-0.6.0
 davidhung@DESKTOP-A39CHVD:/mnt/c/Users/phamh/Downloads/rl-swarm-0.6.0$ chmod +x run_rl_swarm.sh
 davidhung@DESKTOP-A39CHVD:/mnt/c/Users/phamh/Downloads/rl-swarm-0.6.0$ ./run_rl_swarm.sh
+cd /mnt/c/Users/phamh/Downloads/rl-swarm-0.6.0
+
+# tạo môi trường ảo
+python3 -m venv venv
+
+# kích hoạt môi trường ảo
+source venv/bin/activate
+
+# nâng pip
+pip install --upgrade pip
+rl-swarm-0.6.0
