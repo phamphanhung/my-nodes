@@ -192,3 +192,7 @@ source venv/bin/activate
 # nâng pip
 pip install --upgrade pip
 rl-swarm-0.6.0
+
+cd /mnt/c/Users/phamh/Downloads/rl-swarm-0.6.0
+chmod +x run_rl_swarm.sh
+./run_rl_swarm.sh
