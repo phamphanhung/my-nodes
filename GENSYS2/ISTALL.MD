@@ -196,3 +196,12 @@ rl-swarm-0.6.0
 cd /mnt/c/Users/phamh/Downloads/rl-swarm-0.6.0
 chmod +x run_rl_swarm.sh
 ./run_rl_swarm.sh
+# đảm bảo đang trong thư mục rl-swarm-0.6.0
+cd /mnt/c/Users/phamh/Downloads/rl-swarm-0.6.0
+
+# cấp quyền chạy cho script
+chmod +x run_rl_swarm.sh
+
+# chạy script
+./run_rl_swarm.sh
+
