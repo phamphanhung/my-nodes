@@ -70,5 +70,82 @@ Explorer Link: https://hoodi.etherscan.io/tx/0x9c72bd59635e2ca6fe63ed6dfde71eba2
   - address: 0x03F286465a89e531F14fBBd0215E1A58Ee0bFecE
   - block: 1309978
 ###
+sau khi đã có tráp hiển thị trên web 
+tiếp tục qua bước 2. https://github.com/0xmoei/Drosera-Network/blob/main/README.md#2-operator-cli
+chạy lần lượt tới bước 4. đăng ký 4. Register Operator
+chạy lệnh sau 
+``` drosera-operator register \
+  --eth-rpc-url https://ethereum-hoodi-rpc.publicnode.com \
+  --eth-private-key 0xd4535a998a6ede9953bf226d035f1e09acbd07ff66b407601d1241aa4859070b
+```
+thay key của ví vào dòng trên. sau khi đăng ký opeator xong chuyển qua bước 6 để chạy doker
+git clone https://github.com/0xmoei/Drosera-Network
+cd Drosera-Network
+nano .env
+sửa thành như sau , vps lệnh chatgpt chỉ 
+ETH_PRIVATE_KEY=0xd4535a998a6ede9953bf226d035f1e09acbd07ff66b407601d1241aa4859070b
+VPS_IP=42.116.58.215
+ctrl + o và ctrl + x
+docker compose up -d
+docker logs -f drosera-node
+thấy sucsess là docker chạy thành công
+1 số lệnh sau này khi lỗi chạy lại 
+# Stop node
+cd Drosera-Network
+docker compose down -v
+
+# Restart node
+cd Drosera-Network
+docker compose up -d
+tiếp tục qua bước 7 như trên readme hướng dẫn 
+kiểm tra log 
+docker logs -f drosera-node
+### 
+Cách khởi động lại node Drosera sau khi mở máy:
+
+Mở terminal (WSL/Ubuntu) và vào thư mục Drosera-Network:
+
+cd ~/my-drosera-trap/Drosera-Network
+
+
+Kiểm tra container có còn không:
+
+docker ps -a
+
+
+→ Nếu thấy container drosera-node (dù đang Exited), thì chỉ cần start lại.
+
+Khởi động lại node:
+
+docker start -ai drosera-node
+
+
+-a để attach log ra màn hình.
+
+-i để giữ interactive.
+
+Hoặc nếu không muốn xem log, chỉ cần:
+
+docker start drosera-node
+
+
+Nếu muốn xem log sau khi start:
+
+docker logs -f drosera-node
+
+Nếu chẳng may container bị xóa
+
+Bạn vẫn còn file cấu hình (docker-compose.yml, .env …) trong thư mục Drosera-Network.
+
+Chỉ cần chạy lại:
+
+docker compose up -d
+
+
+Node sẽ khởi động lại với PeerID cũ.
+###
+
+
+
 
 
