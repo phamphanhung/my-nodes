@@ -1,0 +1,32 @@
+sau khi chạy đến đoạn 
+Compile Trap:
+
+curl -fsSL https://bun.sh/install | bash
+
+source /root/.bashrc
+
+bun install
+forge build
+thì chạy tiếp lệnh sau 
+``` DROSERA_PRIVATE_KEY=0xd4535a998a6ede9953bf226d035f1e09acbd07ff66b407601d1241aa4859070b \
+drosera apply --eth-rpc-url https://ethereum-hoodi-rpc.publicnode.com
+nếu lỗi báo màu đỏ
+chạy lệnh sau rồi dán địc chỉ ví vào 
+nano drosera.toml
+ethereum_rpc = "https://ethereum-hoodi-rpc.publicnode.com"
+drosera_rpc = "https://relay.hoodi.drosera.io"
+eth_chain_id = 560048
+drosera_address = "0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D"
+
+[traps]
+
+[traps.hello_world]
+path = "out/HelloWorldTrap.sol/HelloWorldTrap.json"
+response_contract = "0x183D78491555cb69B68d2354F7373cc2632508C7"
+response_function = "helloworld(string)"
+cooldown_period_blocks = 33
+min_number_of_operators = 1
+max_number_of_operators = 2
+block_sample_size = 10
+private_trap = true
+whitelist = ["dá địa chỉ ví vào đây"]
