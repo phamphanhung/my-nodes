@@ -1,12 +1,14 @@
+faucet hoodi eth vào ví https://stakely.io/faucet/ethereum-hoodi-testnet-eth?utm_source=chatgpt.com
 sau khi chạy đến đoạn 
-Compile Trap:
+### Compile Trap:
 
 curl -fsSL https://bun.sh/install | bash
 
 source /root/.bashrc
 
 bun install
-forge build
+forge build ###
+
 thì chạy tiếp lệnh sau 
 ``` DROSERA_PRIVATE_KEY=0xd4535a998a6ede9953bf226d035f1e09acbd07ff66b407601d1241aa4859070b \
 drosera apply --eth-rpc-url https://ethereum-hoodi-rpc.publicnode.com
@@ -30,3 +32,40 @@ max_number_of_operators = 2
 block_sample_size = 10
 private_trap = true
 whitelist = ["dá địa chỉ ví vào đây"]
+nếu lỗi khi nhập ofc thì chạy lại dòng sau 
+echo "ofc" | DROSERA_PRIVATE_KEY=0xd4535a998a6ede9953bf226d035f1e09acbd07ff66b407601d1241aa4859070b \
+drosera apply --eth-rpc-url https://ethereum-hoodi-rpc.publicnode.com
+nếu lệnh chạy ra có cấu trúc sau là traps thành công 
+###  - Response Function: helloworld(string)
+ - Seed Node DNR: 0xf901...696f
+ - Cooldown Period Blocks: 33
+ - Min Number of Operators: 1
+ - Max Number of Operators: 2
+ - Block Sample size: 10
+ - Private Trap: true
+ - Whitelist: [
+    0xe77b6cebd20b3693f958464627946a4c08caaf8d,
+]
+
+-----------------SUMMARY------------------
+ - Required DRO: 0
+ - Your Available DRO: 0
+ - Total Estimated Gas Cost: 2,250,084
+
+Do you want to apply these changes? [ofc/N]:
+-----------------Execution---------------------------------------
+
+Transaction 0x9c72bd59635e2ca6fe63ed6dfde71eba24c2d243b02b0d7059c24987e5a74f7e sent. Waiting for confirmation...
+
+  00:00:07 ################################################################################################################## 13/13 (0.0s)
+
+Transaction Hash: 0x9c72bd59635e2ca6fe63ed6dfde71eba24c2d243b02b0d7059c24987e5a74f7e
+Explorer Link: https://hoodi.etherscan.io/tx/0x9c72bd59635e2ca6fe63ed6dfde71eba24c2d243b02b0d7059c24987e5a74f7e
+
+-----------------Results------------------------------------------
+1. Created Trap Config for hello_world: (Gas Used: 2,178,552)
+  - address: 0x03F286465a89e531F14fBBd0215E1A58Ee0bFecE
+  - block: 1309978
+###
+
+
