@@ -1,13 +1,15 @@
 faucet hoodi eth vào ví https://stakely.io/faucet/ethereum-hoodi-testnet-eth?utm_source=chatgpt.com
-sau khi chạy đến đoạn 
-### Compile Trap:
+mở readme chạy từ đầu sau đó  khi chạy đến đoạn 
+###
+Compile Trap:
 
 curl -fsSL https://bun.sh/install | bash
 
 source /root/.bashrc
 
 bun install
-forge build ###
+forge build 
+###
 
 thì chạy tiếp lệnh sau 
 ``` DROSERA_PRIVATE_KEY=0xd4535a998a6ede9953bf226d035f1e09acbd07ff66b407601d1241aa4859070b \
