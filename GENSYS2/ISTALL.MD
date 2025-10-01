@@ -204,4 +204,4 @@ chmod +x run_rl_swarm.sh
 
 # chạy script
 ./run_rl_swarm.sh
-
+https://github.com/gensyn-ai/rl-swarm/releases/tag/v0.6.1
