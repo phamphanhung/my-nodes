@@ -1,3 +1,48 @@
+mainet. https://docs.pipe.network/docs/nodes/mainnet.md
+nano
+# Wallet for earnings
+NODE_SOLANA_PUBLIC_KEY=DiNfJgGrpvhUY7rv7XUbuAkGXptYuvN88HuJX9LhuSLi
+
+# Node identity
+NODE_NAME=hung-mainnet
+NODE_EMAIL="phamhungnewpost@gmail.com"
+NODE_LOCATION="Vietnam, HCMC"
+
+# Cache configuration
+MEMORY_CACHE_SIZE_MB=512
+DISK_CACHE_SIZE_GB=100
+DISK_CACHE_PATH=./cache
+
+# Network ports
+HTTP_PORT=8080
+HTTPS_PORT=8443
+
+# Home network auto port forwarding
+UPNP_ENABLED=true
+lệnh chạy node 
+nohup bash -c "source .env && ./pop" > pop.log 2>&1 &
+lệnh kiêm tra 
+tail -f pop.log
+Bước 4 — Kiểm tra health
+curl http://localhost:8081/health
+
+
+Nếu kết quả trả về:
+
+{"status":"healthy"}
+
+
+→ Node đang kết nối ổn với mạng mainnet.
+
+Bước 5 — Kiểm tra trạng thái & thu nhập
+./pop status
+./pop earnings
+Bước 6 — Dừng node
+
+Nếu cần dừng node đang chạy nền:
+
+pkill -f pop
+
 🔥Hướng Dẫn Chạy Node PoP PipeNetwork trên Windowns
 
 ✅Raised $10M
