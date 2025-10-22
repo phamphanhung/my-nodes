@@ -1,3 +1,14 @@
+lệnh mới trên mac tắt nexus đi rồi chạy 
+```
+RAYON_NUM_THREADS=10 ~/.nexus/bin/nexus-network start --max-threads 10
+```
+trên win
+```
+export RAYON_NUM_THREADS=24
+export THREADS=24
+alias nexus-start='~/.nexus/bin/nexus-network start --max-threads 24'
+```
+
 # Cài đặt Nexus Node (Ubuntu 24.04)
 
 ## 1. Cập nhật hệ thống & cài Docker
