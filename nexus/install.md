@@ -1,5 +1,8 @@
 lệnh mới trên mac tắt nexus đi rồi chạy 
 ```
+RAYON_NUM_THREADS=3 ~/.nexus/bin/nexus-network start --max-threads 3
+```
+```
 RAYON_NUM_THREADS=10 ~/.nexus/bin/nexus-network start --max-threads 10
 ```
 trên win
