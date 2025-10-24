@@ -7,9 +7,28 @@ RAYON_NUM_THREADS=10 ~/.nexus/bin/nexus-network start --max-threads 10
 ```
 trên win
 ```
-export RAYON_NUM_THREADS=24
-export THREADS=24
+✅ 1. Kiểm tra alias hoạt động chưa
+
+Chạy:
+
+alias nexus-start
+
+
+Phải thấy:
+
 alias nexus-start='~/.nexus/bin/nexus-network start --max-threads 24'
+
+
+Nếu không thấy → cần thêm vào ~/.bashrc như sau:
+
+echo "alias nexus-start='~/.nexus/bin/nexus-network start --max-threads 24'" >> ~/.bashrc
+source ~/.bashrc
+
+✅ 2. Chạy lệnh thủ công để test
+
+Thử chạy trực tiếp:
+
+~/.nexus/bin/nexus-network start --max-threads 24
 ```
 
 # Cài đặt Nexus Node (Ubuntu 24.04)
