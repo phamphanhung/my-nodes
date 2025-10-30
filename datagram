@@ -1,7 +1,7 @@
 git clone https://github.com/arcxteam/datagram-node.git
 cd datagram-node
 
-echo "DATAGRAM_KEY=a11b768c7932bf865e27ea0da3c111b0" > .env
+echo "DATAGRAM_KEY=f66d206f3da6fbd1aa24657515c9d9cf" > .env
 
 UBUNTU_VERSION=24.04 docker compose up -d --build
 
