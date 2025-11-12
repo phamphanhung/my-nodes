@@ -1,4 +1,10 @@
 
+Pham Phan Hung, [11/12/2025 9:50 AM]
+0xa7aBCdD59c57353A5CA2bd7B0BBB72eC4d51B2e9
+
+Pham Phan Hung, [11/12/2025 9:51 AM]
+~/go/bin/gswarm
+1 lệnh duy nhất chạy lại
 bot tele https://gswarm.dev/docs#-telegram-bot-setup-step-by-step
 ✅ BƯỚC 1: Cài đặt Node.js 20+
 bash
