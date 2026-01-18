@@ -1,5 +1,5 @@
- swap sol sang wsol : https://tools.smithii.io/solana-wrapper/solana
-https://github.com/Joko588/Solana-Raydium-Sniper-Bot-2025/blob/main/README.md
+### swap sol sang wsol : https://tools.smithii.io/solana-wrapper/solana
+### bài hướng dẫn chính : https://github.com/Joko588/Solana-Raydium-Sniper-Bot-2025/blob/main/README.md
 hướng dẫn chạy trên mac book
 ### cài brew : BƯỚC 1: Cài Homebrew (bắt buộc)
 ```
